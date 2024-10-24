@@ -18,7 +18,7 @@ import { Divider } from '@nextui-org/divider';
 
 export const Navbar = () => {
   return (
-    <NextUINavbar maxWidth="xl" position="sticky">
+    <NextUINavbar maxWidth="xl" position="sticky" className="shadow-md">
       <NavbarContent className="basis-1/5 sm:basis-full p-2" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit h-full">
           <NextLink className="flex justify-start items-center gap-2" href="/">
