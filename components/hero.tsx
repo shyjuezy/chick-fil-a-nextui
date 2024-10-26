@@ -34,25 +34,27 @@ export default function Hero() {
             An original then, an original now
           </h1>
           <div className="flex gap-4 mt-6">
-            <Link href="/pickup">
-              <a className="px-8 py-3 text-white bg-red-600 rounded-full hover:bg-red-700 transition">
-                Order pickup
-              </a>
+            <Link
+              className="px-8 py-3 text-white bg-red-600 rounded-full hover:bg-red-700 transition"
+              href="/pickup"
+            >
+              Order pickup
             </Link>
-            <Link href="/delivery">
-              <a className="px-8 py-3 text-red-600 bg-white border border-red-600 rounded-full hover:bg-red-50 transition">
-                Order delivery
-              </a>
+            <Link
+              className="px-8 py-3 text-red-600 bg-white border border-red-600 rounded-full hover:bg-red-50 transition"
+              href="/delivery"
+            >
+              Order delivery
             </Link>
           </div>
         </div>
         <div>
           <section className="flex justify-center mb-8 lg:mb-0">
             <Image
+              className="object-contain"
               height={500}
               src="/images/ChickenSandwich.jpg"
               width={500}
-              className="object-contain"
             />
           </section>
         </div>
